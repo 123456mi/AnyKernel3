@@ -78,5 +78,5 @@ case "$ZIPFILE" in
 esac
 
 flash_boot;
-# flash_dtbo;
+flash_dtbo;
 ## end install
