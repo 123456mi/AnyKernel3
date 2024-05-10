@@ -5,18 +5,16 @@
 # begin properties
 properties() { '
 kernel.string=Xiaomi HyperOS for cepheus-Kernel
-do.devicecheck=0
+do.devicecheck=1
 do.modules=0
 do.systemless=0
 do.cleanup=1
 do.cleanuponabort=0
 device.name1=cepheus
-device.name2=Cepheus
-device.name3=cepheus-user
-device.name4=Mi 9
-device.name5=Mi9
+device.name2=raphael
+device.name3=crux
 supported.versions=11-14
-supported.patchlevels=
+'; } # end properties
 '; } # end properties
 
 # shell variables
